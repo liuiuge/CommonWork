@@ -179,11 +179,11 @@ if __name__ == '__main__':
     # n_l_sh = copy.deepcopy(num_list)
     # ShellSort(n_l_sh)
     n_l_q = copy.deepcopy(num_list)
-    QuickSort(n_l_q)
+    QuickSort(n_l_q)                # @tRecord:QuickSort  took 0:00:20.247678
     n_l_h = copy.deepcopy(num_list)
-    HeapSort(n_l_h)
+    HeapSort(n_l_h)                 # @tRecord:HeapSort  took 0:01:50.828532
     n_l_m = copy.deepcopy(num_list)
-    MergeSort(n_l_m)
+    MergeSort(n_l_m)                # @tRecord:MergeSort  took 0:01:03.437422
     n_l_bc = copy.deepcopy(num_list)
-    BucketSort(n_l_bc)
+    BucketSort(n_l_bc)              # @tRecord:BucketSort  took 0:00:10.135110
 
